@@ -1,0 +1,17 @@
+[project]
+name = "tesr-click-local"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "alex21", email = "alex21.82@mail.ru" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+tesr-click-local = "tesr_click_local:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"

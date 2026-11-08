@@ -1,0 +1,4 @@
+sources:
+  - name: ae_raw
+    tables:
+      - name: test
