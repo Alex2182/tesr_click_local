@@ -18,7 +18,7 @@ test-paths: ["test"]
 models:
   tesr_click_local:
     # Materialize staging models as views, and marts as tables
-    staging:
+    test_dict_tables:
       +materialized: view
-    marts:
+    test_dict_view:
       +materialized: view
